@@ -1,0 +1,41 @@
+# Actividad 1. 
+
+1.No es correcto sin embargo como ingenieros/técnicos entendemos que la intención es colocar el recurso disponible en web.
+
+Porque plantea correctamente la petición del Rector y adicionalmente plantea si el recurso debe ser de dominio publico o privado es decir acceso interno.
+
+2. Hacen uso de ambos, se necesita la infraestructura (internet) y al usar HTTP se usa el servicio WWW.
+
+3. En este caso especifico en mayoría IETF ya que nos enfocaríamos en los protocolos necesarios para establecer el servidor Web. Y en menor manera W3C ya que usaríamos HTTP.
+
+
+
+# Actividad 2.
+
+1. A --> internet
+   B --> intranet
+   C --> extranet
+
+2. B y C necesitan mas seguridad que C; sin embargo, ya que B es exclusivamente interno puede requerir mayor nivel de seguridad debido a la sensibilidad de la información, en términos de diseño la extranet puede estar en un DMZ que require firewall y elementos de seguridad, pero la red interna usualmente esta detrás de esta DMZ y necesita firewall/protocolos/configuración adicional 
+
+3. Si puede ser alojados en un mismo servidor si se utiliza virtualización. Por medio de maquinas virtuales se podría dividir un servidor físico en 3 virtuales con sus propias características, direccionamiento y seguridad.
+
+# Actividad 3.
+
+1.
+Esquema: https://
+Host: api.github.com
+Puerto: 443
+Path: /repos/bryancs/isw521/issues
+Query Str: state=open&labels=semana1
+Fragmento: comentarios
+
+
+2.1
+utn.ac.cr/san-carlos/2026-ii/cursos?curso=isw-521
+
+2.2
+utn.ac.cr/estudiantes?carne=2021-0001
+
+2.3
+utn.ac.cr/san-carlos/2026-ii/cursos?curso=isw-521&semana=3#materiales
