@@ -1,0 +1,280 @@
+HTML code for Ulises's CV
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ulises Rodríguez Navarro - Resume</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background-color: #f4f6f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 40px auto;
+      background: #fff;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    .header {
+      background: #0d47a1;
+      color: white;
+      padding: 40px;
+      text-align: center;
+    }
+
+    .header h1 {
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+
+    .header p {
+      font-size: 18px;
+    }
+
+    .content {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+    }
+
+    .sidebar {
+      background: #f1f5fb;
+      padding: 30px;
+      border-right: 1px solid #ddd;
+    }
+
+    .main {
+      padding: 30px;
+    }
+
+    h2 {
+      color: #0d47a1;
+      margin-bottom: 15px;
+      margin-top: 25px;
+      border-bottom: 2px solid #0d47a1;
+      padding-bottom: 5px;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    ul li {
+      margin-bottom: 10px;
+    }
+
+    .job {
+      margin-bottom: 25px;
+    }
+
+    .job h3 {
+      color: #222;
+      margin-bottom: 5px;
+    }
+
+    .job span {
+      color: #666;
+      font-size: 14px;
+      font-style: italic;
+    }
+
+    .skills span {
+      display: inline-block;
+      background: #0d47a1;
+      color: white;
+      padding: 8px 12px;
+      margin: 5px;
+      border-radius: 20px;
+      font-size: 14px;
+    }
+
+    .contact p {
+      margin-bottom: 12px;
+    }
+
+    @media (max-width: 768px) {
+      .content {
+        grid-template-columns: 1fr;
+      }
+
+      .sidebar {
+        border-right: none;
+        border-bottom: 1px solid #ddd;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="header">
+      <h1>Ulises Jesús Rodríguez Navarro</h1>
+      <p>Network Engineer | Technical Support | Customer Service</p>
+    </div>
+
+    <div class="content">
+
+      <!-- SIDEBAR -->
+      <div class="sidebar">
+
+        <section class="contact">
+          <h2>Contact</h2>
+
+          <p><strong>Address:</strong><br>
+            Quesada, San Carlos, Alajuela
+          </p>
+
+          <p><strong>Phone:</strong><br>
+            (+506) 7103-7288
+          </p>
+
+          <p><strong>Email:</strong><br>
+            ulisesrod92@gmail.com
+          </p>
+
+          <p><strong>Skype:</strong><br>
+            ulisesrodriguezn
+          </p>
+        </section>
+
+        <section>
+          <h2>Technical Skills</h2>
+
+          <div class="skills">
+            <span>Java</span>
+            <span>Python</span>
+            <span>C#</span>
+            <span>Cisco Networking</span>
+            <span>Windows</span>
+            <span>Microsoft Word</span>
+            <span>Excel</span>
+            <span>PowerPoint</span>
+          </div>
+        </section>
+
+        <section>
+          <h2>Languages</h2>
+
+          <ul>
+            <li><strong>Spanish:</strong> Native</li>
+            <li><strong>English:</strong> Advanced</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Personal Abilities</h2>
+
+          <p>
+            Proactive, friendly, and respectful professional with more than 3 years of experience
+            in customer service and technical support positions. Fast learner with adaptability,
+            responsibility, honesty, and teamwork skills.
+          </p>
+        </section>
+
+      </div>
+
+      <!-- MAIN CONTENT -->
+      <div class="main">
+
+        <section>
+          <h2>Professional Experience</h2>
+
+          <div class="job">
+            <h3>Cisco TAC Engineer | Foundever</h3>
+            <span>September 2022 – October 2023</span>
+
+            <p>
+              Provided break/fix resolution for Cisco ACI technology issues while maintaining
+              excellent customer service. Performed troubleshooting, research, and analysis
+              to solve complex technical problems.
+            </p>
+          </div>
+
+          <div class="job">
+            <h3>Cisco TAC Access | Sykes</h3>
+            <span>January 2022 – September 2022</span>
+
+            <p>
+              Delivered technical customer support with assertive communication to gather
+              accurate problem descriptions and route cases to the appropriate teams.
+              Supported customers through email and chat.
+            </p>
+          </div>
+
+          <div class="job">
+            <h3>Computer Operator | Sykes</h3>
+            <span>November 2020 – January 2022</span>
+
+            <p>
+              Provided customer service and technical assistance, analyzed issues to determine
+              the correct technical department, and responded professionally through chats and emails.
+            </p>
+          </div>
+
+          <div class="job">
+            <h3>Busser | Sun Valley Sky Resort</h3>
+            <span>December 2018 – April 2019</span>
+
+            <p>
+              Cleaning, table setup, assistance, and customer service.
+            </p>
+          </div>
+
+          <div class="job">
+            <h3>Customer Service | Instituto Hispanoamericano de Idiomas</h3>
+            <span>April 2014 – May 2015</span>
+
+            <p>
+              Customer service, information assistance, and payment processing.
+            </p>
+          </div>
+
+          <div class="job">
+            <h3>Assistant | Catering Service Ulises</h3>
+
+            <p>
+              Worked in a family business performing customer service, waiter duties, and cooking assistance.
+            </p>
+          </div>
+
+        </section>
+
+        <section>
+          <h2>Education</h2>
+
+          <ul>
+            <li>CCNAv7: Enterprise Networking, Security, and Automation | 2022</li>
+            <li>CCNAv7: Switching, Routing, and Wireless Essentials | 2021</li>
+            <li>Bachiller en Inglés como Lengua Extranjera | Universidad Técnica Nacional | 2019</li>
+            <li>Operador de Aplicaciones Ofimáticas | Instituto Nacional de Aprendizaje | 2015</li>
+            <li>Ejecutivo En Inglés Para Servicios | Instituto Nacional de Aprendizaje | 2014</li>
+            <li>Bachiller en Educación Media | Colegio Técnico Profesional Regional San Carlos | 2010</li>
+            <li>Técnico Medio Informática en Redes | Colegio Técnico Profesional Regional San Carlos | 2010</li>
+          </ul>
+        </section>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+</html>
