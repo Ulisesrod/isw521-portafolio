@@ -4,7 +4,7 @@
 | TLD | Top-Level Domain | 
 | SLD | Second-Level Domain | 
 | DNS | Domain Name System | 
-|  |  | 
+| FasS | Function as a Service | 
 |  |  | 
 |  |  | 
 |  |  | 
