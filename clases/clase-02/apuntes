@@ -1,1 +1,9 @@
-New apuntes file
+
+Before running up the server in XAMPP, remember to modify the default configuration:
+
+Go to config on the target server and look for the following aspects:
+
+1. DocumentRoot "C:/xampp/htdocs"  --> This is the first place where the server is going to look for your main page.
+
+2. Look for "Listen 8080" --> this is the port that the server will look for.
+
