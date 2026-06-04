@@ -1,0 +1,39 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.card {
+    width: 320px;
+    border: 2px solid #e2e8f0;
+    border-radius: .75 rem;
+    overflow: hidden;
+    margin: 1rem;
+}
+
+.card_header { 
+    color: white;
+    background: #1F3864; 
+    padding: 1.5rem;
+}
+header h1{ 
+    font-size: 3em;
+}
+
+.card_body {
+    padding: 1.25rem;
+    
+}
+.card_body h1 {
+    font-size: 1em;
+    color: #1F3864;
+}
+
+.card_btn {
+    display: block;
+    width: 100%;  
+    padding: .6rem; 
+    text-align: center;
+    background: #1F3864;
+    color: #FFC000;
+    font-weight: bold;
+}
