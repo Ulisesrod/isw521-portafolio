@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="style.css"
+  <title>Ulises Rodriguez</title>
+
+ </head>
+
+<body class="card">
+
+    <header class="card_header">
+      <h1>ISW-521</h1>
+    </header>
+    <main class="card_body">
+      <h1>Programacion en Ambiente Web I</h1>
+      <p>Aprende a construir aplicaciones web modernas con HTML, CSS y JavaScript.</p>
+    </main>
+
+    <footer>
+      <button class="card_btn"> Ver curso --> </button>
+    </footer>
+</body>
