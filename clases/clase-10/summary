@@ -1,0 +1,3 @@
+Typescript is a typed language, it means vars must be given an specific type (int,strinf, double, boolean, etc)
+By default a var with no type will be infer to "any". This is a no no in recommended programming.
+tsconfig file will provide several options to define how strict we want typescript to check the code.
